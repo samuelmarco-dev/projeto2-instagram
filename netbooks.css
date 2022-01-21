@@ -1,0 +1,10 @@
+.barra-lateral{
+    display: none;
+}
+
+.conteudo-pagina{
+    width: calc(100vw - 293px);
+    /* background-color: olive; */
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,51 @@
+.conteudo-pagina{
+    /* background-color: tomato; */
+    margin-bottom: 54px;;
+}
+
+.barra-story{
+    background-color: initial;
+    box-shadow: initial;
+}
+
+.barra-story, .feed, .publi-feed{
+    width: 100vw;
+}
+
+.icone{
+    display: none;
+}
+
+header div, .logo-instagram img, .opcoes-instagram .padding {
+    display: none;
+}
+
+.barra-de-busca input{
+    display: none;
+}
+
+.barra-de-busca img{
+    display: initial;
+}
+
+.barra-mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFFFFF;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    opacity: 0.97;
+}
+
+.barra-mobile ion-icon{
+    height: 22px;
+    width: 22px;
+}
+
+.stories-externo{
+    margin-bottom: 40px;
+}

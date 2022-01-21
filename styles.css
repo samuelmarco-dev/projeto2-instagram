@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    background-color: #E5E5E5;
+}
+
+/* ESTILIZAÇÃO DOS ELEMENTOS DO HEADER */
+header{
+    width: 100%;
+    height: 54px;
+    background: #FFFFFF;
+    opacity: 0.97;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 5;
+}
+
+.logo-instagram, .barra-de-busca, .opcoes-instagram{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* LOGO INSTAGRAM */
+.logo-instagram ion-icon{
+    padding-right: 10px;
+}
+
+.logo-instagram div{
+    height: 22px;
+    /* border: 1px solid #DBDBDB; */
+    width: 1px;
+    background-color: #DBDBDB;
+}
+
+.logo-instagram img{
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+/* BARRA DE BUSCA */
+.barra-de-busca input{
+    width: 215px;
+    height: 28px;
+    border-radius: 5px;
+    font-style: 12px;
+    text-align: center;
+    background-color: #FAFAFA;
+}
+
+input::placeholder { color: #979797; }
+
+ion-icon{
+    width: 22px;
+    height: 22px;
+}
+
+/* OPÇÕES INSTAGRAM */
+.opcoes-instagram .padding{
+    padding-left: 20px;
+}
+
+/* POSICIONAMENTO CONTEÚDO DA PÁGINA */
+.conteudo-pagina{
+    margin: 0 auto;
+    margin-top: 54px;
+    width: 935px;
+    /* height: calc(100vh - 54px); */
+    /* background-color: olive; */
+    display: flex;
+    /* position: relative; */
+}
+
+.pagina-feed{
+    width: 614px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 34px;
+}
+
+/* BARRA STORY */
+.barra-story{
+    width: 100%;
+    background-color: #FFFFFF;
+    height: 118px;
+    /* margin-top: 34px; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 0 3px rgb(77, 76, 74);
+    position: relative;
+}
+
+.stories-externo{
+    width: 66px;
+    height: 66px;
+    /* background-color: brown; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.stories-interno{
+    /* width: 56px; */
+    height: 56px;
+    /* background-color: chartreuse; */
+    /* border-radius: 50%; */
+    position: absolute;
+    /* overflow: hidden; */
+    /* left: 5px; */
+}
+
+.stories-interno p{
+    width: 56px;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 6px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.primeiro{
+    margin-left: 18px;
+}
+
+.outros{
+    margin-left: 14px;
+}
+
+.stories-externo img{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+
+.stories-interno img{
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+}
+
+.icone{
+    width: 32px;
+    height: 32px;
+    /* background-color: brown; */
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 0.7));
+    cursor: pointer;
+}
+
+.icone ion-icon{
+    /* width: 32px;
+    height: 32px;
+    border-radius: 50%; */
+    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 0.7));
+}
+
+/* ESTILIZAÇÃO E POSICIONAMENTO DAS PUBLIAÇÕES */
+.publi-feed{
+    width: 614px;
+    height: 612px;
+}
+
+.meowed, .barked, .razoesparaacreditar{
+    box-shadow: 0 0 3px rgb(77, 76, 74);
+}
+
+.meowed{
+    background-color: #FFFFFF;
+    height: 749px;
+    margin-top: 24px;
+}
+
+.topo-esquerda img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.meowed-topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.topo-esquerda, .topo-direita{
+    margin-top: 15px;
+}
+
+.meowed .topo-esquerda{
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+}
+
+.meowed .topo-direita{
+    margin-right: 17px;
+}
+
+.topo-esquerda strong{
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+}
+
+.icones-publi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icones-esquerda{
+    margin-left: 17px;
+}
+
+.icones-direita{
+    margin-right: 17px;
+}
+
+.padding-left{
+    padding-left: 8px;
+}
+
+.curtidas{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 18px;
+}
+
+.curtidas img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.curtidas p{
+    padding-left: 8px;
+}
+
+.curtidas p strong{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+}
+
+/* PUBLUCAÇAO NÚMERO 2 */
+.barked, .razoesparaacreditar{
+    margin-top: 60px;
+}
+
+.razoesparaacreditar{
+    margin: 60px 0;
+}
+
+/* SIDEBAR LATERAL */
+.barra-lateral{
+    width: 293px;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 34px;
+    position: fixed;
+    /* position: sticky; */
+}
+
+.story-perfil{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.perfil{
+    height: 118px;
+    display: flex;
+    align-items: center;
+}
+
+.texto-perfil{
+    padding-left: 17px;
+}
+
+.texto-perfil strong{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.texto-perfil p{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.41px;
+    color: #8E8E8E;
+}
+
+.sugestoes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+}
+
+.sugestoes strong{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+}
+
+.sugestoes .cinza{ color: #8E8E8E; }
+.sugestoes .preto{ color: #262626; cursor: pointer;}
+
+.perfil-recomendacao img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.recomendacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.perfil-recomendacao{
+    height: 32px;
+    display: flex;
+}
+
+.descricao-recomendacao{
+    padding-left: 11px;
+}
+
+.descricao-recomendacao strong{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #262626;
+}
+
+.descricao-recomendacao p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #8E8E8E;
+    padding-top: 6px;
+}
+
+.quero-seguir strong{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    color: #139EF2;
+    cursor: pointer;
+}
+
+.configuracoes-conta, .marca-registrada{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12.89px;
+    color: #c7c7c7;
+    cursor: pointer;
+}
+
+.configuracoes-conta{
+    margin-top: 33px;
+    margin-bottom: 18px;
+}
+
+/* ESTILZAÇÃO MOUSE EM PUBLICAÇÕES */
+.meowed-topo .topo-esquerda, .meowed-topo .topo-direita,
+.icones-esquerda ion-icon, .icones-direita ion-icon,
+.curtidas img, .curtidas strong
+{
+    cursor: pointer;
+}
+
+/* RECURSIVIDADE */
+.barra-de-busca img{
+    display: none;
+}
+
+.barra-mobile{
+    display: none;
+    height: 54px;
+}
