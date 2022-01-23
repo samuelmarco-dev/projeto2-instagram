@@ -8,8 +8,17 @@
     box-shadow: initial;
 }
 
-.barra-story, .feed, .publi-feed{
+.barra-story, .feed, .publi-feed, .comentarios{
     width: 100vw;
+}
+
+.comentarios .esquerda-comentar input, 
+.comentarios-postados, .quero-comentar{
+    width: 100%;
+}
+
+.comentarios-postados{
+    height: 40px;
 }
 
 .icone{
@@ -48,4 +57,16 @@ header div, .logo-instagram img, .opcoes-instagram .padding {
 
 .stories-externo{
     margin-bottom: 40px;
+}
+
+.primeiro{
+    margin-left: 10px;
+}
+
+.meowed{
+    height: 836px;
+}
+
+.urso{
+    margin-bottom: 30px;
 }
