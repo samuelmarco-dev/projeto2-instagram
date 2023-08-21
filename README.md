@@ -1,2 +1,2 @@
-# projeto-instagram-hospedado
-Projeto Instagram hospedado no GitPages
+# projeto-instagram
+Projeto 2 - Instagram
