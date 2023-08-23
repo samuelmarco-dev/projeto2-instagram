@@ -1,19 +1,17 @@
-@import url(
-    'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'
-    );
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 body {
-    font-family: 'Roboto';
+    font-family: "Roboto";
     font-style: normal;
     font-weight: 400;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
 }
 
 /* ESTILIZAÇÃO DOS ELEMENTOS DO HEADER */
 header {
     width: 100%;
     height: 54px;
-    background: #FFFFFF;
+    background: #ffffff;
     opacity: 0.97;
     display: flex;
     justify-content: space-evenly;
@@ -24,7 +22,9 @@ header {
     z-index: 5;
 }
 
-.logo-instagram, .barra-de-busca, .opcoes-instagram { 
+.logo-instagram,
+.barra-de-busca,
+.opcoes-instagram {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,7 +39,7 @@ header {
 .logo-instagram div {
     height: 22px;
     width: 1px;
-    background-color: #DBDBDB;
+    background-color: #dbdbdb;
 }
 
 .logo-instagram img {
@@ -56,15 +56,19 @@ header {
 
 input {
     border-radius: 5px;
-    border: 1px solid #DBDBDB;
+    border: 1px solid #dbdbdb;
     font-size: 12px;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     color: #979797;
     padding-left: 10px;
 }
 
-input::placeholder { color: #979797; }
-input:focus { outline: none; }
+input::placeholder {
+    color: #979797;
+}
+input:focus {
+    outline: none;
+}
 
 ion-icon {
     width: 22px;
@@ -81,13 +85,10 @@ main {
     margin: 0 auto;
     margin-top: 54px;
     width: 935px;
-    /* height: calc(100vh - 54px); */
-    /* background-color: olive; */
     display: flex;
-    /* position: relative; */
 }
 
-.pagina-feed{
+.pagina-feed {
     width: 614px;
     display: flex;
     flex-direction: column;
@@ -95,9 +96,9 @@ main {
 }
 
 /* BARRA STORY */
-.barra-story{
+.barra-story {
     width: 100%;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     height: 118px;
     /* margin-top: 34px; */
     margin: 0 auto;
@@ -108,10 +109,9 @@ main {
     position: relative;
 }
 
-.stories-externo{
+.stories-externo {
     width: 66px;
     height: 66px;
-    /* background-color: brown; */
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -119,17 +119,12 @@ main {
     position: relative;
 }
 
-.stories-interno{
-    /* width: 56px; */
+.stories-interno {
     height: 56px;
-    /* background-color: chartreuse; */
-    /* border-radius: 50%; */
     position: absolute;
-    /* overflow: hidden; */
-    /* left: 5px; */
 }
 
-.stories-interno p{
+.stories-interno p {
     width: 56px;
     overflow: hidden;
     text-align: center;
@@ -138,259 +133,267 @@ main {
     line-height: 14px;
 }
 
-.primeiro{
+.primeiro {
     margin-left: 18px;
 }
 
-.outros{
+.outros {
     margin-left: 14px;
 }
 
-.stories-externo img{
+.stories-externo img {
     width: 66px;
     height: 66px;
     border-radius: 50%;
 }
 
-.stories-interno img{
+.stories-interno img {
     width: 56px;
     height: 56px;
     cursor: pointer;
 }
 
-.icone{
-    width: 32px;
-    height: 32px;
-    /* background-color: brown; */
+.icone {
+    width: 40px;
+    height: 40px;
     position: absolute;
     right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 0.6));
-    cursor: pointer;
 }
 
-.icone ion-icon{
-    /* width: 32px;
-    height: 32px;
-    border-radius: 50%; */
-    filter: drop-shadow( 3px 3px 2px rgba(0, 0, 0, 0.7));
+.icone ion-icon {
+    width: 100%;
+    height: 80%;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 38px;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 /* ESTILIZAÇÃO E POSICIONAMENTO DAS PUBLIAÇÕES */
-.publi-feed{
+.publi-feed {
     width: 614px;
     height: 612px;
 }
 
-.meowed, .barked, .razoesparaacreditar{
+.meowed,
+.barked,
+.razoesparaacreditar {
     box-shadow: 0 0 3px rgb(77, 76, 74);
 }
 
-.meowed{
-    background-color: #FFFFFF;
+.meowed {
+    background-color: #ffffff;
     height: 820px;
     margin-top: 24px;
 }
 
-.topo-esquerda img{
+.topo-esquerda img {
     width: 32px;
     height: 32px;
     border-radius: 50%;
 }
 
-.meowed-topo{
+.meowed-topo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
 }
 
-.topo-esquerda, .topo-direita{
+.topo-esquerda,
+.topo-direita {
     margin-top: 15px;
 }
 
-.meowed .topo-esquerda{
+.meowed .topo-esquerda {
     display: flex;
     align-items: center;
     margin-left: 17px;
 }
 
-.meowed .topo-direita{
+.meowed .topo-direita {
     margin-right: 17px;
 }
 
-.topo-esquerda strong{
+.topo-esquerda strong {
     padding-left: 15px;
     font-size: 14px;
     font-weight: 500;
     line-height: 16.41px;
 }
 
-.icones-publi{
+.icones-publi {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
 
-.icones-esquerda{
+.icones-esquerda {
     margin-left: 17px;
 }
 
-.icones-direita{
+.icones-direita {
     margin-right: 17px;
 }
 
-.padding-left{
+.padding-left {
     padding-left: 8px;
 }
 
-.curtidas{
+.curtidas {
     display: flex;
     align-items: center;
     margin-top: 12px;
     margin-left: 18px;
 }
 
-.curtidas img{
+.curtidas img {
     width: 20px;
     height: 20px;
     border-radius: 50%;
 }
 
-.curtidas p{
+.curtidas p {
     padding-left: 8px;
 }
 
-.curtidas p strong{
+.curtidas p strong {
     font-size: 14px;
     font-weight: 500;
     line-height: 16.41px;
 }
 
 /* PUBLUCAÇAO NÚMERO 2 */
-.barked, .razoesparaacreditar{
+.barked,
+.razoesparaacreditar {
     margin-top: 60px;
 }
 
-.urso{
+.urso {
     margin-bottom: 60px;
 }
 
-
 /* SIDEBAR LATERAL */
-.barra-lateral{
+.barra-lateral {
     width: 293px;
     height: 500px;
     margin-left: 30px;
     margin-top: 34px;
     position: fixed;
-    /* position: sticky; */
 }
 
-.story-perfil{
+.story-perfil {
     width: 56px;
     height: 56px;
     border-radius: 50%;
 }
 
-.perfil{
+.perfil {
     height: 118px;
     display: flex;
     align-items: center;
 }
 
-.perfil img{
+.perfil img {
     cursor: pointer;
 }
 
-.texto-perfil{
+.texto-perfil {
     padding-left: 17px;
     cursor: pointer;
 }
 
-.texto-perfil strong{
+.texto-perfil strong {
     font-weight: 500;
     font-size: 14px;
     line-height: 16.41px;
 }
 
-.texto-perfil p{
+.texto-perfil p {
     font-weight: 300;
     font-size: 14px;
     line-height: 16.41px;
-    color: #8E8E8E;
+    color: #8e8e8e;
 }
 
-.sugestoes{
+.sugestoes {
     display: flex;
     justify-content: space-between;
     margin-top: -15px;
 }
 
-.sugestoes strong{
+.sugestoes strong {
     font-size: 12px;
     font-weight: 500;
     line-height: 14.06px;
 }
 
-.sugestoes .cinza{ color: #8E8E8E; }
-.sugestoes .preto{ color: #262626; cursor: pointer;}
+.sugestoes .cinza {
+    color: #8e8e8e;
+}
+.sugestoes .preto {
+    color: #262626;
+    cursor: pointer;
+}
 
-.perfil-recomendacao img{
+.perfil-recomendacao img {
     width: 32px;
     height: 32px;
     border-radius: 50%;
 }
 
-.recomendacao{
+.recomendacao {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 18px;
 }
 
-.recomendacao img, .descricao-recomendacao strong{
+.recomendacao img,
+.descricao-recomendacao strong {
     cursor: pointer;
 }
 
-.perfil-recomendacao{
+.perfil-recomendacao {
     height: 32px;
     display: flex;
 }
 
-.descricao-recomendacao{
+.descricao-recomendacao {
     padding-left: 11px;
 }
 
-.descricao-recomendacao strong{
+.descricao-recomendacao strong {
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
     color: #262626;
 }
 
-.descricao-recomendacao p{
+.descricao-recomendacao p {
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
-    color: #8E8E8E;
+    color: #8e8e8e;
     padding-top: 6px;
 }
 
-.quero-seguir strong{
+.quero-seguir strong {
     font-size: 12px;
     font-weight: 500;
     line-height: 14px;
-    color: #139EF2;
+    color: #139ef2;
     cursor: pointer;
 }
 
-.configuracoes-conta, .marca-registrada{
+.configuracoes-conta,
+.marca-registrada {
     font-size: 11px;
     font-weight: 400;
     line-height: 12.89px;
@@ -398,45 +401,47 @@ main {
     cursor: pointer;
 }
 
-.configuracoes-conta{
+.configuracoes-conta {
     margin-top: 33px;
     margin-bottom: 18px;
 }
 
 /* ESTILZAÇÃO MOUSE EM PUBLICAÇÕES */
-.meowed-topo .topo-esquerda, .meowed-topo .topo-direita,
-.icones-esquerda ion-icon, .icones-direita ion-icon,
-.curtidas img, .curtidas strong
-{
+.meowed-topo .topo-esquerda,
+.meowed-topo .topo-direita,
+.icones-esquerda ion-icon,
+.icones-direita ion-icon,
+.curtidas img,
+.curtidas strong {
     cursor: pointer;
 }
 
 /* RECURSIVIDADE */
-.barra-de-busca img{
+.barra-de-busca img {
     display: none;
 }
 
-.barra-mobile{
+.barra-mobile {
     display: none;
     height: 54px;
 }
 
 /* COMENTÁRIOS */
-.comentarios{
+.comentarios {
     width: 614px;
     /* background-color: blue; */
-    background-color: #FFFFFF;
+    background-color: #ffffff;
 }
 
-.comentarios-postados, .quero-comentar{
+.comentarios-postados,
+.quero-comentar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 32px;
-    /* background-color: chartreuse; */
 }
 
-.comentarios{
+.comentarios {
     font-family: Roboto;
     font-size: 14px;
     font-style: normal;
@@ -444,49 +449,50 @@ main {
     margin-top: 6px;
 }
 
-.esquerda strong{
+.esquerda strong {
     font-weight: 500;
     margin-left: 10px;
 }
 
-.esquerda p{
+.esquerda p {
     font-weight: 300;
     padding-left: 8px;
 }
 
-.comentarios-postados .esquerda, .comentarios-postados .direita{
+.comentarios-postados .esquerda,
+.comentarios-postados .direita {
     display: flex;
 }
 
-.esquerda img, .esquerda-comentar img{
+.esquerda img,
+.esquerda-comentar img {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     margin-left: 18px;
 }
 
-.direita ion-icon{
+.direita ion-icon {
     width: 22px;
     height: 22px;
     padding-right: 18px;
 }
 
-.quero-comentar{
-    /* background-color: crimson; */
+.quero-comentar {
     margin-top: 4px;
 }
 
-.esquerda-comentar{
+.esquerda-comentar {
     display: flex;
 }
 
-.esquerda-comentar input{
+.esquerda-comentar input {
     width: 440px;
     margin-left: 8px;
     border-radius: 10px;
 }
 
-.publicar strong{
+.publicar strong {
     padding-right: 8px;
     color: #6bc0f8;
     font-weight: 500;

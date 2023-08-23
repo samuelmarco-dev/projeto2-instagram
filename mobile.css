@@ -1,47 +1,52 @@
-.conteudo-pagina{
-    /* background-color: tomato; */
-    margin-bottom: 54px;;
+.conteudo-pagina {
+    margin-bottom: 54px;
 }
 
-.barra-story{
+.barra-story {
     background-color: initial;
     box-shadow: initial;
 }
 
-.barra-story, .feed, .publi-feed, .comentarios{
+.barra-story,
+.feed,
+.publi-feed,
+.comentarios {
     width: 100vw;
 }
 
-.comentarios .esquerda-comentar input, 
-.comentarios-postados, .quero-comentar{
+.comentarios .esquerda-comentar input,
+.comentarios-postados,
+.quero-comentar {
     width: 100%;
 }
 
-.comentarios-postados{
+.comentarios-postados {
     height: 40px;
 }
 
-.icone{
+.icone {
     display: none;
 }
 
-header div, .logo-instagram img, .opcoes-instagram .padding {
+header div,
+.logo-instagram img,
+.opcoes-instagram .padding {
     display: none;
 }
 
-.barra-de-busca input{
+.barra-de-busca input {
     display: none;
 }
 
-.barra-de-busca img{
+.barra-de-busca img {
     display: initial;
 }
 
-.barra-mobile{
+.barra-mobile {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background: #FFFFFF;
+    background: #ffffff;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -50,23 +55,23 @@ header div, .logo-instagram img, .opcoes-instagram .padding {
     opacity: 0.97;
 }
 
-.barra-mobile ion-icon{
+.barra-mobile ion-icon {
     height: 22px;
     width: 22px;
 }
 
-.stories-externo{
+.stories-externo {
     margin-bottom: 40px;
 }
 
-.primeiro{
+.primeiro {
     margin-left: 10px;
 }
 
-.meowed{
+.meowed {
     height: 836px;
 }
 
-.urso{
+.urso {
     margin-bottom: 30px;
 }
